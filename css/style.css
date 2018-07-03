@@ -70,6 +70,10 @@ GREEN - #43B581;
   border: 2px solid #343A40;
 }
 
+.status-2 {
+  transform: translate(110%, 80%);
+}
+
 .status.dnd {
   background-color: #F04747;
 }
