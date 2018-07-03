@@ -13,8 +13,20 @@ body, html {
   z-index: 10000;
 }
 
+.emotes p {
+  font-size: .8rem;
+}
+
+.emote {
+  width: 3rem;
+}
+
 .content {
   padding-top: 5rem;
+}
+
+.overflow {
+  overflow: visible;
 }
 
 .staff-member {
