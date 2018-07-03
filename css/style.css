@@ -46,6 +46,14 @@ body, html {
   width: 75px;
 }
 
+.introgif {
+  width: 8rem;
+}
+
+ul {
+  list-style-position: inside;
+}
+
 /*
 RED - #F04747;
 YELLOW - #FAA61A;
@@ -114,6 +122,10 @@ GREEN - #43B581;
 
 .bouncein {
   animation: bouncein 1.5s;
+}
+
+.down {
+  margin-bottom: 300px;
 }
 
 @keyframes float {
