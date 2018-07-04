@@ -47,7 +47,9 @@ body, html {
 .overflow {
   overflow: visible;
 }
-
+.woftheend {
+  width: 50%;
+}
 .staff-member {
   display: flex;
   justify-content: center;
@@ -270,6 +272,16 @@ GREEN - #43B581;
 @media (max-width: 576px) {
   .dp1 {
     font-size: 3rem;
+  }
+
+  .woftheend {
+    width: 75%;
+  }
+}
+
+@media (min-width: 576px) {
+  .woftheend {
+    width: 50%;
   }
 }
 
