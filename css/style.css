@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('/fonts/PTN57F.ttf');
 
 body, html {
   margin: 0;
@@ -53,6 +54,33 @@ body, html {
 ul {
   list-style-position: inside;
 }
+
+.name {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.small {
+  font-size: 0.86rem;
+}
+
+.smolpic {
+  max-height: 20rem;
+  margin-top: -2rem;
+}
+
+.fmtext {
+  margin-top: -3rem;
+}
+
+.miniemote {
+  width: 1.5rem;
+}
+
+.btm-spacer {
+  margin-bottom: 10rem;
+}
+
 
 /*
 RED - #F04747;
