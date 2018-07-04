@@ -76,11 +76,27 @@ ul {
   width: 1.5rem;
 }
 
-.btm-spacer {
-  margin-bottom: 10rem;
+.megaemote {
+  width: 2.5rem;
 }
 
+.btm-spacer {
+  margin-bottom: 14rem;
+}
 
+.inl {
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.popover {
+  background-color: rgb(221, 221, 221);
+}
+
+.arrow::after {
+    border-bottom-color: rgb(221, 221, 221)!important;
+}
 /*
 RED - #F04747;
 YELLOW - #FAA61A;
