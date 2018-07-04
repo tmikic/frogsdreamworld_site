@@ -8,6 +8,30 @@ body, html {
   font-family: 'Quicksand', sans-serif;
 }
 
+.bg-home {
+  background-color: #4E8975!important;
+}
+
+.bg-staff {
+  background-color: #48358C!important;
+}
+
+.bg-giveaways {
+  background-color: #4C001F!important;
+}
+
+.bg-community {
+  background-color: #35383D!important;
+}
+
+.bg-emotes {
+  background-color: #3852aa!important;
+}
+
+.bg-end {
+  background-color: #343a4d!important;
+}
+
 ::-webkit-scrollbar {
     width: 0.5rem;
     border-radius: 5px;
@@ -155,6 +179,12 @@ GREEN - #43B581;
   border-bottom-style: inset;
   border-bottom-width: 1px;
   padding-bottom: 0px;
+}
+
+.active-underline-dark {
+  border-bottom-color: #343A40;
+  border-bottom-style: inset;
+  border-bottom-width: 1px;
 }
 
 .center {
