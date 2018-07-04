@@ -8,6 +8,25 @@ body, html {
   font-family: 'Quicksand', sans-serif;
 }
 
+::-webkit-scrollbar {
+    width: 0.5rem;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
 .nvbr {
   position: fixed;
   z-index: 10000;
